@@ -1,1 +1,4 @@
-# prox0BFGS
+# Proximal Zero-Memory Quasi-Newton Method
+This repository contains code for a proximal quasi-Newton method with zero-memory BFGS update (and some comparison methods) for solving certain (large-scale) non-smooth optimization problems. The method relies on theory developed in my 2016 Master's thesis ([click here for a copy](http://google.com)) that extends the proximal zero-memory method with rank-one update proposed in Becker and Fadili (Stephen Becker and Jalal Fadili. A quasi-Newton proximal splitting method. In Advances in Neural Information Processing Systems, pages 2618–2626, 2012) to rank-two updates using Toland-Singer duality.
+
+Some problems to test out the code and compare it to existing methods can be found in the problems folder.

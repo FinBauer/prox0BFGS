@@ -1,0 +1,8 @@
+This folder contains the following algorithms, which were implemented and tested in this thesis:
+
+prox_0bfgs.py: The Prox0BFGS algorithm.
+prox_0sr1.py: The Prox0SR1 algorithm.
+prox_0sr1_moreau.py: The (slow) Prox0SR1 algorithm, using the Moreau identity to compute the proximity operator (see Chapter 3.3.2 in my thesis).
+prox_grad.py: The ProxGrad algorithm.
+
+The files input_parsers.py, prox_operators.py and subroutines.py are used by above algorithms. More detailed descriptions can be found in the code comments.

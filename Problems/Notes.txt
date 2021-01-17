@@ -1,0 +1,3 @@
+These are the problems set up for testing. To rerun the problems, the Python version needs to be run first. This creates a new file that can be accessed by the Matlab version of the problem to run the algorithms PQN, FISTA and SpaRSA. 
+
+For Problem 3, 4 and 5 the datasets are not included due to their size. They need to be downloaded first (see links in thesis) and converted to Matlab matrices.
